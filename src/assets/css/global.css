@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body,#app{
+    height:100%;
+    margin:0;
+    padding:0;
+    min-width: 1024px;
+  }
+
+/* 在这设置样式层级比组件库的要高 因为这是global 全局样式 */
+.el-submenu__title{
+    font-size: 13px;
+}
+.el-menu-item{
+    font-size: 13px;
+}
+.iconfont{
+    margin-right: 10px;
+}
+.el-table{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.el-pagination{
+    margin-top: 15px;
+}
